@@ -38,34 +38,157 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/cloudinfra/67e2ea0e-f65a-4374-bb13-f7aec8f90118/header_bg.jpg"
+        "title": "<p><span>Soluções em Cloud Computing e Infraestrutura de TI</span></p>",
+        "cta": [
+          {
+            "id": "hero-cta",
+            "href": "#",
+            "text": "Saiba mais",
+            "outline": false
+          }
+        ],
+        "description": "A CloudInfra é uma consultoria especializada em Cloud Computing e Infraestrutura de TI, focada em atender pequenas e médias empresas. Nossos valores são foco, resiliência e excelência.",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/cloudinfra/67e2ea0e-f65a-4374-bb13-f7aec8f90118/header_bg.jpg",
+        "placement": "left"
       }
     },
     {
-      "__resolveType": "site/sections/Logos.tsx"
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "site/sections/Logos.tsx",
+      "enable": true,
+      "enabled": false
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
+      "ctaPlacement": "left",
+      "titlePlacement": "left",
+      "placement": "right",
+      "tagline": "O melhor suporte para sua empresa",
+      "title": "Suporte completo para sua empresa",
+      "description": "A CloudInfra oferece soluções abrangentes de infraestrutura de TI e computação em nuvem para pequenas e médias empresas. Nossa equipe de especialistas está pronta para fornecer suporte técnico 24/7, gerenciamento de ativos e soluções personalizadas para atender às necessidades específicas do seu negócio.",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/cloudinfra/46d4af70-4b53-4892-a499-2cd8c7707b1f/main_logo.png",
+      "cta": [
+        {
+          "href": "/contato",
+          "text": "Fale Conosco"
+        }
+      ],
+      "descriptionPlacement": "left"
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx"
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "enabled": true,
+      "title": "Serviços",
+      "posts": [
+        {
+          "tags": [],
+          "title": "Rollout",
+          "author": "-",
+          "excerpt": "Modernize sua empresa com o nosso serviço de rollout de TI! Implantamos novas tecnologias, softwares e hardwares de forma rápida e eficiente, minimizando interrupções e maximizando resultados. Do planejamento à execução, cuidamos de tudo: migração de dados, configuração de sistemas, treinamento de usuários e suporte técnico contínuo. Simplifique a adoção de novas tecnologias e impulsione a transformação digital do seu negócio!",
+          "date": "-",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/cloudinfra/d9fa6ba1-6181-4dcd-9df8-41a5d39cf432/rollout-980x552.jpg"
+        },
+        {
+          "tags": [],
+          "title": "Suporte Técnico",
+          "author": "-",
+          "excerpt": "Tenha tranquilidade com o nosso suporte técnico completo para sua infraestrutura, seja na nuvem ou on-premises! Oferecemos monitoramento 24/7, resolução rápida de incidentes, suporte a aplicações, segurança de dados e consultoria especializada para garantir o funcionamento impecável dos seus sistemas. Concentre-se no seu negócio e deixe que nossos especialistas cuidem da sua TI, otimizando performance e reduzindo custos. ",
+          "date": "-",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/cloudinfra/9a459845-5349-4ec6-bada-64e652fe6fcd/support-tecnico-de-ti.jpg"
+        },
+        {
+          "tags": [],
+          "title": "Gestão de Ativos",
+          "author": "-",
+          "excerpt": "Tenha tranquilidade com o nosso suporte técnico completo para sua infraestrutura, seja na nuvem ou on-premises! Oferecemos monitoramento 24/7, resolução rápida de incidentes, suporte a aplicações, segurança de dados e consultoria especializada para garantir o funcionamento impecável dos seus sistemas. Concentre-se no seu negócio e deixe que nossos especialistas cuidem da sua TI, otimizando performance e reduzindo custos. ",
+          "date": "-",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/cloudinfra/2445f51e-6020-49c7-a4c5-ac2962698f7e/gestao-de-ativos-de-TI-768x512.jpg.webp"
+        }
+      ],
+      "description": "Conheça nosso catálogo de serviços completo para sua empresa"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "left",
+      "tagline": "Diferenciais",
+      "title": "Por que escolher a CloudInfra?",
+      "description": "A CloudInfra se destaca no mercado de soluções em nuvem e infraestrutura de TI por oferecer:\n\n1. Soluções Personalizadas: Adaptamos nossos serviços às necessidades específicas de cada cliente.\n\n2. Expertise Técnica: Nossa equipe altamente qualificada garante implementações eficientes e suporte contínuo.\n\n3. Escalabilidade: Nossas soluções crescem com o seu negócio, garantindo flexibilidade e economia.\n\n4. Segurança Avançada: Implementamos as melhores práticas de segurança para proteger seus dados e sistemas.\n\n5. Suporte 24/7: Oferecemos assistência técnica ininterrupta para garantir a continuidade dos seus negócios.",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/cloudinfra/68f2649a-0825-4cec-a3e0-e5087ceebcf4/Unsplash-picture.jpg",
+      "cta": [
+        {
+          "href": "/contato",
+          "text": "Como podemos ajudar?"
+        }
+      ],
+      "titlePlacement": "left",
+      "descriptionPlacement": "left",
+      "ctaPlacement": "left"
     },
     {
       "__resolveType": "site/sections/Testimonials.tsx",
-      "arrows": true
+      "arrows": true,
+      "title": "Nossos clientes satisfeitos",
+      "dots": false,
+      "interval": 500,
+      "slides": [
+        {
+          "content": {
+            "description": "A CloudInfra transformou completamente nossa infraestrutura de TI. Sua equipe é extremamente competente e sempre disponível para nos ajudar. Recomendo fortemente seus serviços!",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/cloudinfra/9219e0a7-3f88-4906-bb91-79c0d84ff76b/61.jpg",
+            "alt": "Foto de João Silva",
+            "name": "João Silva",
+            "position": "Diretor de TI, Empresa XYZ"
+          }
+        },
+        {
+          "content": {
+            "description": "Desde que contratamos a CloudInfra, nossa produtividade aumentou significativamente. O suporte técnico deles é incomparável e as soluções personalizadas realmente atendem às nossas necessidades específicas.",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/cloudinfra/3f9d67bf-6b68-40a4-8d57-73e041bf2853/36.jpg",
+            "alt": "Foto de Maria Santos",
+            "name": "Maria Santos",
+            "position": "CEO, Startup ABC"
+          }
+        },
+        {
+          "content": {
+            "description": "A segurança avançada e o suporte 24/7 da CloudInfra nos dão tranquilidade. Eles são verdadeiros parceiros em nosso crescimento e sucesso.",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/cloudinfra/02ac8314-e779-4ccf-b7d7-622848a77684/83.jpg",
+            "alt": "Foto de Carlos Oliveira",
+            "name": "Carlos Oliveira",
+            "position": "CTO, Empresa 123"
+          }
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/Faq.tsx"
-    },
-    {
-      "__resolveType": "Footer"
+      "__resolveType": "site/sections/Faq.tsx",
+      "title": "Perguntas Frequentes",
+      "description": "Encontre respostas para as dúvidas mais comuns sobre nossos serviços de cloud computing e infraestrutura de TI.",
+      "cta": {
+        "href": "/contato",
+        "text": "Ainda tem dúvidas? Entre em contato"
+      },
+      "questions": [
+        {
+          "title": "O que é cloud computing?",
+          "answer": "Cloud computing é um modelo de entrega de serviços de computação pela internet, incluindo servidores, armazenamento, bancos de dados, rede, software e análise. Ele oferece recursos flexíveis e economia de custos para empresas de todos os tamanhos."
+        },
+        {
+          "title": "Como a CloudInfra garante a segurança dos dados?",
+          "answer": "A CloudInfra utiliza medidas de segurança avançadas, incluindo criptografia de ponta a ponta, autenticação multifator, monitoramento contínuo e atualizações regulares de segurança para proteger os dados dos nossos clientes."
+        },
+        {
+          "title": "Quais são os benefícios do suporte técnico 24/7?",
+          "answer": "Nosso suporte técnico 24/7 garante que sua infraestrutura de TI esteja sempre operacional, minimizando tempo de inatividade e resolvendo problemas rapidamente a qualquer hora do dia ou da noite."
+        },
+        {
+          "title": "Como a CloudInfra ajuda na gestão de ativos de TI?",
+          "answer": "Oferecemos soluções de gestão de ativos que incluem inventário automatizado, monitoramento de desempenho, atualizações de software e planejamento de ciclo de vida, ajudando sua empresa a otimizar recursos e reduzir custos."
+        },
+        {
+          "title": "A CloudInfra oferece soluções personalizadas?",
+          "answer": "Sim, desenvolvemos soluções personalizadas para atender às necessidades específicas de cada cliente, considerando seu tamanho, setor e objetivos de negócio."
+        }
+      ]
     }
   ],
   "__resolveType": "website/pages/Page.tsx",

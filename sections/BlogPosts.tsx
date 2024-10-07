@@ -15,6 +15,7 @@ export interface Props {
   title?: string;
   description?: string;
   posts?: Post[];
+  enabled?: boolean;
 }
 
 const DEFAULT_IMAGE =
@@ -55,9 +56,11 @@ export default function BlogPosts({
       tags: ["Tag #1", "Tag #2", "Tag #3"],
     },
   ],
+  enabled = true
 }: Props) {
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm py-12 lg:py-28">
+    enabled && (
+      <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm py-12 lg:py-28">
       <div class="space-y-16">
         <div class="flex flex-col lg:flex-row gap-4 justify-between">
           <div class="space-y-6 lg:w-1/2">
@@ -105,5 +108,6 @@ export default function BlogPosts({
         </div>
       </div>
     </div>
+    )
   );
 }

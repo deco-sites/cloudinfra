@@ -1,4 +1,5 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
+import {JSX} from 'preact'
 import Image from "apps/website/components/Image.tsx";
 
 export interface CTA {
