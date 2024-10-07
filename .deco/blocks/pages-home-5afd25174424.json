@@ -35,10 +35,14 @@
       }
     },
     {
-      "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Click here to tweak this text however you want.</p>",
-      "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Hero.tsx",
+        "title": "<p>Click here to tweak this text however you want.</p>",
+        "cta": [],
+        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/cloudinfra/67e2ea0e-f65a-4374-bb13-f7aec8f90118/header_bg.jpg"
+      }
     },
     {
       "__resolveType": "site/sections/Logos.tsx"
